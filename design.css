@@ -10,7 +10,7 @@ body {
 	margin: auto;
 }
 header {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/dkbanner.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(assets/island.png);
 	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -68,21 +68,32 @@ header {
 .welcome-text h1 span {
 	color: #fe0000;
 }
-.welcome-text a {
-	border: 1px solid #fff;
-	padding: 10px 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 14px;
-	margin-top: 20px;
-	display: inline-block;
-	color: #fff;
-}
+
 .welcome-text a:hover {
 	background: #fff;
 	color: #333;
 }
-/*resposive*/
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+}
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+}
+  
+  div.desc {
+	padding: 15px;
+	text-align: center;
+}
 
 @media (max-width:600px) {
 	.wrapper {
