@@ -16,10 +16,10 @@
 </div>
 
 <div class="navbar">
-  <a href="main.html">Characters</a>
-  <a href="maps.html">Levels</a>
-  <a href="secrets.html">Secrets</a>
-  <a href="gallery.html" class="active">Gallery</a>
+  <a href="main.php">Characters</a>
+  <a href="maps.php">Levels</a>
+  <a href="secrets.php">Secrets</a>
+  <a href="gallery.php" class="active">Gallery</a>
 </div>
 
 </header>
