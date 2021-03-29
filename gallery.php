@@ -12,48 +12,93 @@
 
 <div class="header">
   <h1>Donkey Kong 64</h1>
-  <h2>Game Gallery</h2>
+  <h2>Music and Gallery</h2>
 </div>
 
 <div class="navbar">
   <a href="main.php">Characters</a>
   <a href="maps.php">Levels</a>
   <a href="secrets.php">Secrets</a>
-  <a href="gallery.php" class="active">Gallery</a>
+  <a href="gallery.php" class="active">Media</a>
 </div>
 
-</header>
+<div class="row">
+  <div class="side">
+    <h2>Donkey Kong 64 OST Preview</h2>
+    <img src="assets/ostcover.jpg" style="height:500px;">
+    <p>Main Menu</p>
+    <audio controls>
+      <source src="ost_sample/Main Menu.mp3" type="audio/mpeg">
+    </audio>
+    <p>DK's Treehouse</p>
+    <audio controls>
+      <source src="ost_sample/DK's Treehouse.mp3" type="audio/mpeg">
+    </audio>
+    <p>Cranky's Lab</p>
+    <audio controls>
+      <source src="ost_sample/Cranky's Lab.mp3" type="audio/mpeg">
+    </audio>
+    <p>Pause Menu</p>
+    <audio controls>
+      <source src="ost_sample/Pause Menu.mp3" type="audio/mpeg">
+    </audio>
+    <p>Dk Isles</p>
+    <audio controls>
+      <source src="ost_sample/DK Isle.mp3" type="audio/mpeg">
+    </audio>
+    <p>K. Lumsy</p>
+    <audio controls>
+      <source src="ost_sample/K. Lumsy.mp3" type="audio/mpeg">
+    </audio>
+    <p>Jungle Japes Lobby</p>
+    <audio controls>
+      <source src="ost_sample/Jungle Japes Lobby.mp3" type="audio/mpeg">
+    </audio>
+    <p>Jungle Japes</p>
+    <audio controls>
+      <source src="ost_sample/Jungle Japes.mp3" type="audio/mpeg">
+    </audio>
+    <p>Angry Aztec Lobby</p>
+    <audio controls>
+      <source src="ost_sample/Angry Aztec Lobby.mp3" type="audio/mpeg">
+    </audio>
+    <p>Angry Aztec</p>
+    <audio controls>
+      <source src="ost_sample/Angry Aztec.mp3" type="audio/mpeg">
+    </audio>
+    <p>Creepy Castle</p>
+    <audio controls>
+      <source src="ost_sample/Creepy Castle.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  
+  <div class="main">
 <div class="container">
 
-  <!-- Full-width images with number text -->
+  <h2>Donkey Kong 64 Gallery</h2>
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="assets/dkbanner.jpg" style="width:80%">
+    <img src="assets/dkbanner.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="assets/blocker.png" style="width:80%">
+    <img src="assets/blocker.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="assets/angryaztec.png" style="width:80%">
+    <img src="assets/angryaztec.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="assets/dktreehouse.png" style="width:80%">
+    <img src="assets/dktreehouse.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="assets/funkyarmory.png" style="width:80%">
+    <img src="assets/funkyarmory.png" style="width:100%">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="assets/crankyslab.png" style="width:80%">
+    <img src="assets/crankyslab.png" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -119,14 +164,16 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
+</div>
+
 
 <div class="siteFooterBar">
-  <div class="content">
-      <img src="assets/footer_symbol.png" >
-          <div class="foot">2021 @</div>
-          <div class="foot">Taulant Xhakli</div>
-  </div>
+    <div class="content">
+        <img src="assets/footer_symbol.png" >
+            <div class="foot">2021 @</div>
+            <div class="foot">Taulant Xhakli</div>
+    </div>
 </div>
+
 </body>
 </html>
-<!--<div class="banan">BANAN</div>-->

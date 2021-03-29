@@ -18,7 +18,7 @@
   <a href="main.php">Characters</a>
   <a href="maps.php" class="active">Levels</a>
   <a href="secrets.php">Secrets</a>
-  <a href="gallery.php">Gallery</a>
+  <a href="gallery.php">Media</a>
 </div>
 
 <div class="row">

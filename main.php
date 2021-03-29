@@ -19,7 +19,7 @@
   <a href="main.php" class="active">Characters</a>
   <a href="maps.php">Levels</a>
   <a href="secrets.php">Secrets</a>
-  <a href="gallery.php">Gallery</a>
+  <a href="gallery.php">Media</a>
 </div>
 
 <div class="row">
@@ -60,7 +60,14 @@
       in order to stop him. Be warned, King K. Rool does not play fair, as his Kremling minions save him from the bell every knock-down.
     </p>
     <img src="assets/donkeykong.gif" style="height:300px;"><img src="assets/kingkkrool.gif" style="height:300px;">
-    <p></p>
+    <p>Donkey Kong, the first Kong to challenge K. Rool, needs to keep his distance from the Kremling leader. As K. Rool 
+    will slam down on the canvas and deliver a devastating blow (as shown on the left). Once K. Rool is in the middle of the ring, barrels will come
+    down on top of the ring edges. Which is where DK can get into the barrel and shoot himself to the giant croc (as shown on the right).
+    </p>
+    <img src="assets/firstphasedk.gif" style="height:300px;"><img src="assets/secondphasedk.gif" style="height:300px;">
+    <p>As the player progresses, they will need to use the whole Kong family to defeat K. Rool. 
+    Question is, will you be able to stop K. Rool's fury?
+    </p>
     <br>
     <h4>Army Dillo</h4>
     <img src="assets/armadillo.jpg" style="height:500px;">
