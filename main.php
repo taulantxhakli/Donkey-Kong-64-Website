@@ -18,7 +18,7 @@
 <div class="navbar">
   <a href="main.php" class="active">Characters</a>
   <a href="maps.php">Levels</a>
-  <a href="secrets.php">Secrets</a>
+  <a href="bossguide.php">Boss Guide</a>
   <a href="gallery.php">Media</a>
 </div>
 

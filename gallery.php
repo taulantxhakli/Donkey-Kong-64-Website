@@ -18,7 +18,7 @@
 <div class="navbar">
   <a href="main.php">Characters</a>
   <a href="maps.php">Levels</a>
-  <a href="secrets.php">Secrets</a>
+  <a href="bossguide.php">Boss Guide</a>
   <a href="gallery.php" class="active">Media</a>
 </div>
 
@@ -74,7 +74,7 @@
 
   
   <div class="main">
-<div class="container">
+  <div class="container">
 
   <h2>Donkey Kong 64 Gallery</h2>
   <div class="mySlides">
@@ -99,6 +99,54 @@
 
   <div class="mySlides">
     <img src="assets/crankyslab.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/dkislesoverview.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/dklogo.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/dk.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/diddy.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/tiny.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/chunky.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/lanky.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/k.rool.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/madjack.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/fly.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/armadillo.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/puftoss.jpg" style="width:100%">
   </div>
 
   <!-- Next and previous buttons -->
@@ -130,9 +178,45 @@
     <div class="column">
       <img class="demo cursor" src="assets/crankyslab.png" style="width:100%" onclick="currentSlide(6)" alt="Cranky's Laboratory">
     </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/dkislesoverview.png" style="width:100%" onclick="currentSlide(7)" alt="Dk Isles Overview">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/dklogo.png" style="width:100%" onclick="currentSlide(8)" alt="Dk Logo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/dk.jpg" style="width:100%" onclick="currentSlide(9)" alt="Donkey Kong">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/diddy.jpg" style="width:100%" onclick="currentSlide(10)" alt="Diddy Kong">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/tiny.jpg" style="width:100%" onclick="currentSlide(11)" alt="Tiny Kong">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/chunky.jpg" style="width:100%" onclick="currentSlide(12)" alt="Chunky Kong">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/lanky.jpg" style="width:100%" onclick="currentSlide(13)" alt="lanky Kong">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/k.rool.jpg" style="width:100%" onclick="currentSlide(14)" alt="King K. Rool">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/madjack.jpg" style="width:100%" onclick="currentSlide(15)" alt="Mad Jack">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/fly.jpg" style="width:100%" onclick="currentSlide(16)" alt="Dogadon">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/armadillo.jpg" style="width:100%" onclick="currentSlide(17)" alt="Army Dillo">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/puftoss.jpg" style="width:100%" onclick="currentSlide(18)" alt="Puftoss">
+    </div>
   </div>
 </div>
-<script>
+<script> //java script for gallery
 var slideIndex = 1;
 showSlides(slideIndex);
 
