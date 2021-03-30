@@ -23,6 +23,7 @@
 
 <div class="row">
   <div class="side">
+  <!--Playable Kongs description and images-->
     <h2>Playable Characters</h2>
     <h4>Donkey Kong:</h4>
     <img src="assets/dk.jpg" style="height:200px;">
@@ -61,7 +62,7 @@
     <h2>All Levels in DK 64</h2>
     <h4>DK Treehouse</h4>
     <img src="assets/dktreehouseintro.gif" style="height:400px;">
-    <p>The intro to the game sees Donkey Kong in his famous treehouse exercising before he sets out to fight the Kremlings.</p>
+    <p>The intro to the game sees Donkey Kong in his famous treehouse exercising before he sets out to fight the Kremlings...and retrieve his golden bananas.</p>
     <br>
     <h4>DK Isles Overview</h4>
     <img src="assets/dkislesoverview.png" style="height:500px;">
@@ -73,8 +74,7 @@
     <h4>Jungle Japes</h4>
     <img src="assets/Jungle_Japes_center.png" style="height:500px;">
     <p>Jungle Japes is the first level in Donkey Kong 64. Since this is the first adventure stage of the game, it is where the player learns to do many things, including collecting bananas and transforming into Rambi the Rhino. It is located in Donkey Kong Island and requires one Golden Banana (found near the entrance itself) to enter. Diddy Kong is held captive here in a mountain prison.
-
-Jungle Japes, as the name suggests, has many jungle areas, filled with climbable trees and collectibles. There are many cliffs that the Kongs climb, one of which has a mine area. The jungle also has many gloomy tunnels full of swinging light bulbs and Gnawties. The Kasplats are found in the tunnels, except the one carrying Chunky Kong's Blueprint is located in the underground cave. The boss of this stage is Army Dillo, which requires 60 regular Bananas both from Donkey Kong and Diddy Kong to enter, and Army Dillo is fought by Donkey Kong.
+      Jungle Japes, as the name suggests, has many jungle areas, filled with climbable trees and collectibles. There are many cliffs that the Kongs climb, one of which has a mine area. The jungle also has many gloomy tunnels full of swinging light bulbs and Gnawties. The Kasplats are found in the tunnels, except the one carrying Chunky Kong's Blueprint is located in the underground cave. The boss of this stage is Army Dillo, which requires 60 regular Bananas both from Donkey Kong and Diddy Kong to enter, and Army Dillo is fought by Donkey Kong.
     </p>
     <br>
     <h4>Angry Aztec</h4>
@@ -124,6 +124,7 @@ Jungle Japes, as the name suggests, has many jungle areas, filled with climbable
   </div>
 </div>
 
+<!--Footer for each page-->
 <div class="siteFooterBar">
     <div class="content">
         <img src="assets/footer_symbol.png" >

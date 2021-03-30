@@ -53,12 +53,24 @@
   </div>
   <div class="main">
     <h2>DK 64 Boss Battle Guide: Provided by ProsafiaGaming</h2>
-    <video height="500px" controls>
+    <video height="725px" controls>
       <source src="assets/bossvideo.mp4" type="video/mp4">
       Your browser does not support the video tag. <!-- Text to be shown incase browser doesnt support html5 -->
     </video>
+
+    <!-- PHP portion of the website-->
+    <?php
+    // official description for the video
+		echo "<pre>\n";
+    echo "Video Descripton from YouTube: \n";
+		echo "All bosses compilation of Donkey Kong 64 without taking damage for Nintendo 64 (1080p & 60fps) \n";
+    echo "►No Commentary Gameplay by ProsafiaGaming (2017)◄ \n";
+    echo '<a href="https://www.youtube.com/channel/UC-2wnBgTMRwgwkAkHq4V2rg">YouTube Channel</a>';
+		echo "</pre>\n";
+	?>
 </div>
 
+<!--Footer for each page-->
 <div class="siteFooterBar">
     <div class="content">
         <img src="assets/footer_symbol.png" >

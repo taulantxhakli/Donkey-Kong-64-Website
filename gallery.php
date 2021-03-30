@@ -24,8 +24,11 @@
 
 <div class="row">
   <div class="side">
+  <!--Music section for the site. -->
+  <!--users are able to control audio, play and download individual songs. -->
     <h2>Donkey Kong 64 OST Preview</h2>
     <img src="assets/ostcover.jpg" style="height:500px;">
+
     <p>Main Menu</p>
     <audio controls>
       <source src="ost_sample/Main Menu.mp3" type="audio/mpeg">
@@ -250,7 +253,7 @@ function showSlides(n) {
 </script>
 </div>
 
-
+<!--Footer for each page-->
 <div class="siteFooterBar">
     <div class="content">
         <img src="assets/footer_symbol.png" >
