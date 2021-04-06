@@ -15,7 +15,7 @@ Video for the boss guide is too large. I have it saved locally if anyone needs i
   
   ## Sneak-Peek
  
-  ![Alt Text](character.gif)
+  ![Alt Text](characters.gif)
   
   ![Alt Text](take_2.gif)
   
