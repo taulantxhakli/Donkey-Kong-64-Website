@@ -20,6 +20,8 @@ Video for the boss guide is too large. I have it saved locally if anyone needs i
   ![Alt Text](levels.gif)
   
   ![Alt Text](bossguide.gif)
+  
+  ![Alt Text](media.gif)
 
   
   ## Contributing
