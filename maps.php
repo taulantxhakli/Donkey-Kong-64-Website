@@ -19,6 +19,12 @@
   <a href="maps.php" class="active">Levels</a>
   <a href="bossguide.php">Boss Guide</a>
   <a href="gallery.php">Media</a>
+
+  <!--Part 2 of website project-->
+  <a>| Speed Running Section | </a>
+  <a href="anyperc.php">Any%</a>
+  <a href="101perc.php">101%</a>
+  <a href="nolevelearly.php">No Levels Early</a>
 </div>
 
 <div class="row">
