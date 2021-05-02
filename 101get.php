@@ -37,12 +37,14 @@
     <p>• All forms of Wii U VC injects are banned, you must use a copy purchased from the Wii U VC shop to use the Wii U VC version of the game</p>
     <p>• Only official Nintendo releases are allowed, unofficial emulators are banned</p>
 
-    <a href="nolevget.php?run=No Levels Early&follow=Defeat all bosses (defined as an enemy that spawns a key) and K. Rool">Display Section Rules</a>
+    <?php
+        echo "Rules for " . $_GET['run'] . " are the " . $_GET['follow'];
+    ?>
 
   </div>
   <div class="main">
     <?php
-      include 'includes/nolevdb.php';
+      include 'includes/101db.php';
 
       echo "Database has been reloaded at: ";
       echo date("r");

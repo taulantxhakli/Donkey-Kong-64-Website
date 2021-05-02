@@ -26,7 +26,7 @@
 <div class="row">
   <div class="side">
   <!--Speedrunning information-->
-  <h2>Rules</h2>
+    <h2>Rules</h2>
     <p>These rules apply to every DK64 category:</p>
     <p>• Time starts upon activation of intro story [w/ ISG] or upon starting file [w/o ISG]</p>
     <p>• Time ends upon the start of the cutscene where K. Rool gets punched</p>
@@ -36,13 +36,16 @@
     <p>• You may only open the VC menu or Home menu to reset the game, change controller settings or open the instruction booklet. However, accidentally opening the VC menu is tolerated as long as no advantage is gained using it.</p>
     <p>• All forms of Wii U VC injects are banned, you must use a copy purchased from the Wii U VC shop to use the Wii U VC version of the game</p>
     <p>• Only official Nintendo releases are allowed, unofficial emulators are banned</p>
+    
+    <?php
+        echo "Rules for " . $_GET['run'] . " are to " . $_GET['follow'];
+    ?>
 
-    <a href="nolevget.php?run=No Levels Early&follow=Defeat all bosses (defined as an enemy that spawns a key) and K. Rool">Display Section Rules</a>
-
+      
   </div>
   <div class="main">
     <?php
-      include 'includes/nolevdb.php';
+      include 'includes/anydb.php';
 
       echo "Database has been reloaded at: ";
       echo date("r");

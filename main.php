@@ -1,3 +1,6 @@
+<?php
+  setcookie("firstName", "taulant");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,20 +21,17 @@
 
 <!--Navigate to other pages-->
 <div class="navbar">
-  <a href="main.php" class="active">Characters</a>
-  <a href="maps.php">Levels</a>
-  <a href="bossguide.php">Boss Guide</a>
-  <a href="gallery.php">Media</a>
-
-  <!--Part 2 of website project-->
-  <a>| Speed Running Section | </a>
-  <a href="anyperc.php">Any%</a>
-  <a href="101perc.php">101%</a>
-  <a href="nolevelearly.php">No Levels Early</a>
+  <?php
+    include 'includes/nav.php';
+  ?>
 </div>
 
 <div class="row">
   <div class="side">
+  <?php
+    echo "Welcome to the DK Website: ";
+    echo $_COOKIE['firstName'];
+  ?>
   <!--Playable Kongs description and images-->
     <h2>Playable Characters</h2>
     <h4>Donkey Kong:</h4>

@@ -12,7 +12,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background: url(assets/header.jpg);
+  background: url(header.jpg);
   color: rgb(255, 0, 0);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(255, 251, 0);
@@ -84,7 +84,7 @@ body {
 .main {   
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
-  background-image: url(assets/banana_background.png);
+  background-image: url(banana_background.png);
   padding: 20px;
 }
 

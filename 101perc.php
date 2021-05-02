@@ -18,33 +18,34 @@
 
 <!--Navigate to other pages-->
 <div class="navbar">
-  <a href="main.php">Characters</a>
-  <a href="maps.php">Levels</a>
-  <a href="bossguide.php">Boss Guide</a>
-  <a href="gallery.php">Media</a>
-
-  <!--Part 2 of website project-->
-  <a>| Speed Running Section | </a>
-  <a href="anyperc.php">Any%</a>
-  <a href="101perc.php" class="active">101%</a>
-  <a href="nolevelearly.php">No Levels Early</a>
+  <?php
+    include 'includes/nav.php';
+  ?>
 </div>
 
 <div class="row">
   <div class="side">
-  <!--Playable Kongs description and images-->
-    <h2>Playable Characters</h2>
-    <h4>Donkey Kong:</h4>
-    <img src="assets/dk.jpg" style="height:200px;">
-    <p>Leader of the bunch. Donkey Kong is a well-rounded ape with the basics for the player to get started. He collects yellow bananas, coins, and blueprints
-      (as shown below). 
-    </p>
-    <img src="assets/yellow_Banana.gif" style="height:90px;"><img src="assets/yellow_Banana_Coin.gif" style="height:90px;"><img src="assets/yellow_Blueprint.gif" style="height:90px;">
+  <!--Speedrunning information-->
+  <h2>Rules</h2>
+    <p>These rules apply to every DK64 category:</p>
+    <p>• Time starts upon activation of intro story [w/ ISG] or upon starting file [w/o ISG]</p>
+    <p>• Time ends upon the start of the cutscene where K. Rool gets punched</p>
+    <p>• Start from a fresh file</p>
+    <p>• RTA timing MUST be used, NOT the in-game time</p>
+    <p>• In-game cheats are BANNED</p>
+    <p>• You may only open the VC menu or Home menu to reset the game, change controller settings or open the instruction booklet. However, accidentally opening the VC menu is tolerated as long as no advantage is gained using it.</p>
+    <p>• All forms of Wii U VC injects are banned, you must use a copy purchased from the Wii U VC shop to use the Wii U VC version of the game</p>
+    <p>• Only official Nintendo releases are allowed, unofficial emulators are banned</p>
+
+    <a href="101get.php?run=101%&follow=File select screen must say 101% after the run">Display Section Rules</a>
 
   </div>
   <div class="main">
     <?php
       include 'includes/101db.php';
+
+      echo "Database has been reloaded at: ";
+      echo date("r");
     ?>
   </div>
 </div>

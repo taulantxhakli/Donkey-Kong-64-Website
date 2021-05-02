@@ -15,17 +15,11 @@
   <h2>Boss Guide</h2>
 </div>
 
+<!--Navigate to other pages-->
 <div class="navbar">
-  <a href="main.php">Characters</a>
-  <a href="maps.php">Levels</a>
-  <a href="bossguide.php" class="active">Boss Guide</a>
-  <a href="gallery.php">Media</a>
-
-  <!--Part 2 of website project-->
-  <a>| Speed Running Section | </a>
-  <a href="anyperc.php">Any%</a>
-  <a href="101perc.php">101%</a>
-  <a href="nolevelearly.php">No Levels Early</a>
+  <?php
+    include 'includes/nav.php';
+  ?>
 </div>
 
 <div class="row">
