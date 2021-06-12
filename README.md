@@ -1,5 +1,5 @@
 # Donkey-Kong-64-Website
-Website guide for Donkey Kong 64 (working)
+Website guide for Donkey Kong 64
   
    ## Table of Contents
   * [Description](#description)
