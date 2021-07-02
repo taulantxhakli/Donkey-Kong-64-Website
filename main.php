@@ -1,6 +1,3 @@
-<?php
-  setcookie("firstName", "taulant");
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +25,6 @@
 
 <div class="row">
   <div class="side">
-  <?php
-    echo "Welcome to the DK Website: ";
-    echo $_COOKIE['firstName'];
-  ?>
   <!--Playable Kongs description and images-->
     <h2>Playable Characters</h2>
     <h4>Donkey Kong:</h4>
