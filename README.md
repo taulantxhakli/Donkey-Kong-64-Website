@@ -27,8 +27,6 @@ Video for the boss guide is too large. I have it saved locally if anyone needs i
   
   ## Questions?
   
-  ![Developer Profile Picture](https://avatars.githubusercontent.com/u/58316986?s=460&u=b6d47b95334d6366fb3a422f40454ac40f571a9f&v=4) 
-  
   For any questions, please contact me with the information below:
  
   Email: txhakli@gmail.com
